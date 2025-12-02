@@ -1,7 +1,6 @@
-// src/components/Projects/ProjectCard.jsx
 const ProjectCard = ({ project }) => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl border border-gray-700">
+    <div className="bg-gray-900 rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl border border-gray-700">
       <div className="p-6">
         <div className="flex justify-between items-start mb-4">
           <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
@@ -57,7 +56,10 @@ const ProjectCard = ({ project }) => {
           </h4>
           <div className="flex flex-wrap gap-2">
             {project.technologies.map((tech, index) => (
-              <span key={index} className="bg-gray-700 px-3 py-1.5 rounded-full text-sm text-cyan-300 font-medium transition-colors hover:bg-cyan-900/40">
+              <span 
+                key={index} 
+                className="px-3 py-1.5 rounded-full text-sm font-medium bg-gray-700 text-cyan-300 hover:bg-cyan-900/40 transition-colors"
+              >
                 {tech}
               </span>
             ))}

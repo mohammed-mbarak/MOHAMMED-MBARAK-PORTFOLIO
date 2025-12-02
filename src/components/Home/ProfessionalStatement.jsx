@@ -1,4 +1,3 @@
-// src/components/Home/ProfessionalStatement.jsx
 const ProfessionalStatement = () => {
   return (
     <section className="py-16 bg-gradient-to-b from-white to-blue-50">
@@ -12,11 +11,10 @@ const ProfessionalStatement = () => {
         <div className="max-w-4xl mx-auto bg-white p-10 rounded-xl shadow-lg border border-blue-100">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              I am a <strong className="text-blue-600">Security Analyst and Web Developer</strong> 
-              with 2+ years of experience bridging cybersecurity and software engineering. 
+              I am a <strong className="text-blue-600">Security Analyst and Web Developer</strong> passionate about bridging cybersecurity and software engineering. 
               Skilled in <strong className="text-blue-600">threat monitoring, vulnerability assessments, incident response,</strong> 
-              and <strong className="text-blue-600">secure coding practices</strong>, I bring a proactive approach to safeguarding digital assets 
-              while delivering modern, scalable applications.
+              and <strong className="text-blue-600">secure coding practices</strong>, I bring a proactive and innovative approach to safeguarding digital assets 
+              while delivering modern, scalable, and resilient applications.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">

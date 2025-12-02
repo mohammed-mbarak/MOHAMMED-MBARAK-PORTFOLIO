@@ -75,7 +75,7 @@ const Footer = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://github.com/Mbarak-jr" 
+                  href="https://github.com/mohammed-mbarak" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-gray-700 hover:bg-gray-600 text-white p-3 rounded-lg transition-all duration-300 transform hover:-translate-y-1 shadow-lg"
