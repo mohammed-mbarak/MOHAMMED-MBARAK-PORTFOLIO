@@ -38,11 +38,11 @@ const ProjectsGrid = () => {
       demo: "https://travel-ai-assistant-tau.vercel.app/"
     },
     {
-      title: "Global Lift Hub",
-      description: "A full-stack platform connecting underserved communities to jobs, microloans, digital skills, and sustainable commerce.",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      github: "https://github.com/mohammed-mbarak/GLOBAL-LIFT-HUB",
-      demo: "https://globallifthub.onrender.com"
+      title: "CineHorizon – Movie Discovery & Live Trailer Streaming",
+      description: "Movie discovery application powered by third-party APIs, featuring live search, trailers, sleek UI, and fast browsing experience.",
+      technologies: ["React", "Movie APIs", "TMDB API", "Netlify"],
+      github: "https://github.com/mohammed-mbarak/CINEHORIZON",
+      demo: "https://cinehorizon.netlify.app/"
     }
   ];
 
