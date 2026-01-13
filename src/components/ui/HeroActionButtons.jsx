@@ -1,8 +1,11 @@
+// src/components/ui/HeroActionButtons.jsx
+import { Link } from 'react-router-dom';
+
 const HeroActionButtons = () => {
   return (
-    <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-      <a
-        href="/contact"
+    <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+      <Link
+        to="/contact"
         className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-6 py-3 rounded-lg font-semibold
                    hover:from-blue-700 hover:to-cyan-700 transition-all duration-300
                    flex items-center justify-center shadow-lg hover:shadow-blue-400/30
@@ -13,10 +16,10 @@ const HeroActionButtons = () => {
           <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
         </svg>
         Contact Me
-      </a>
+      </Link>
 
-      <a
-        href="/resume"
+      <Link
+        to="/resume"
         className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-6 py-3 rounded-lg font-semibold
                    hover:from-blue-700 hover:to-cyan-700 transition-all duration-300
                    flex items-center justify-center shadow-lg hover:shadow-blue-400/30
@@ -30,7 +33,7 @@ const HeroActionButtons = () => {
           />
         </svg>
         View Resume
-      </a>
+      </Link>
     </div>
   );
 };
