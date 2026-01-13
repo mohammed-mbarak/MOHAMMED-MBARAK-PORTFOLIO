@@ -1,15 +1,93 @@
-# React + Vite
+# Mohammed Hassan – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **developer portfolio website** built to showcase my skills, projects, and professional background as a **Frontend / Full-Stack Developer**.
 
-Currently, two official plugins are available:
+🔗 **Live Portfolio:**  
+https://mohammed-mbarak-portfolio.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Clean and modern UI built with **React + Tailwind CSS**
+- Fully responsive (desktop, tablet, mobile)
+- Projects showcase with live demos
+- Downloadable CV (direct download)
+- Contact and social links
+- Optimized for performance and SEO
 
-# MOHAMMED-MBARAK-PORTFOLIO
-A professional portfolio website built with React and Tailwind CSS. It includes my resume, project showcases, lab challenges, and contact links.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, JavaScript (ES6+)
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Linting:** ESLint
+- **Deployment:** Render / Netlify
+- **Version Control:** Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+MOHAMMED-MBARAK-PORTFOLIO/
+├── public/
+│ └── assets
+├── src/
+│ ├── components/
+│ │ └── ui/
+│ ├── pages/
+│ ├── styles/
+│ └── App.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+1. **Clone the repository**
+- git clone https://github.com/mohammed-mbarak/MOHAMMED-MBARAK-PORTFOLIO.git
+
+## Navigate to the project
+**cd MOHAMMED-MBARAK-PORTFOLIO**
+
+
+## Install dependencies
+**npm install**
+
+
+## Run the development server
+**npm run dev**
+
+The app will be available at:
+
+http://localhost:5173
+
+## 📄 Resume
+
+- The portfolio includes a direct CV download button (no preview or sharing page).
+
+## 📄 Download CV:
+- Available directly from the portfolio website.
+
+## 📌 Featured Projects
+
+- **QRStudio** – Full-Stack QR Code Management Platform
+- **CineHorizon** – Movie Discovery Web App
+- Additional frontend and lab projects showcased on the site
+
+## 📬 Contact
+
+- **Email:** mohammedmbarak77@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/mohammed-mbarak/
+- **GitHub:** https://github.com/mohammed-mbarak
+
+## 📜 License
+
+- This project is licensed under the MIT License.
+- Feel free to fork and customize it for your own portfolio.
