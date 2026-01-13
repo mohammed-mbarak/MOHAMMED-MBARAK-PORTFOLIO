@@ -15,14 +15,13 @@ const ResumePage = () => {
           <p className="text-gray-300 mt-3 max-w-2xl mx-auto">
             A comprehensive overview of my education, experience, skills, and certifications in cybersecurity and software development.
           </p>
+          <DownloadCVButton />
         </div>
 
         <Education />
         <Experience />
         <Skills />
         <Certifications />
-
-        <DownloadCVButton />
       </div>
     </div>
   );
