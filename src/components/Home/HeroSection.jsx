@@ -1,5 +1,4 @@
 import profileImage from '../../assets/img/mohammed-mbarak.jpg';
-import HeroActionButtons from '../ui/HeroActionButtons';
 
 const HeroSection = () => {
   return (
@@ -21,7 +20,7 @@ const HeroSection = () => {
       <div className="absolute top-1/3 right-1/4 w-12 h-12 bg-indigo-200 rounded-full opacity-25 animate-pulse delay-500" />
 
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center relative z-10">
-        {/* Profile Image — kept exactly as original */}
+        {/* Profile Image */}
         <div className="md:w-2/5 flex justify-center mb-10 md:mb-0">
           <div className="relative w-56 h-56 md:w-72 md:h-72">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 to-cyan-500 opacity-30 animate-pulse" />
@@ -43,7 +42,6 @@ const HeroSection = () => {
             Mohammed Hassan
           </h1>
 
-          {/* Updated header to match summary */}
           <p className="text-xl md:text-2xl mb-6 text-gray-700 font-medium">
             Security Analyst | Full-Stack & Mobile Developer
           </p>
@@ -51,12 +49,45 @@ const HeroSection = () => {
           <div className="mb-6">
             <div className="inline-flex items-center bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full border border-blue-200 shadow-sm">
               <div className="h-3 w-3 rounded-full bg-green-500 mr-2 animate-pulse" />
-              <span className="text-sm text-gray-700">Available for security consulting</span>
+              <span className="text-sm text-gray-700">
+                Available for Security & Software Development
+              </span>
             </div>
           </div>
 
-          {/* Imported buttons component */}
-          <HeroActionButtons />
+          {/* Hero Action Buttons (merged, using <a>) */}
+          <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+            <a
+              href="/contact"
+              className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-6 py-3 rounded-lg font-semibold
+                         hover:from-blue-700 hover:to-cyan-700 transition-all duration-300
+                         flex items-center justify-center shadow-lg hover:shadow-blue-400/30
+                         transform hover:-translate-y-1"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+              </svg>
+              Contact Me
+            </a>
+
+            <a
+              href="/resume"
+              className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-6 py-3 rounded-lg font-semibold
+                         hover:from-blue-700 hover:to-cyan-700 transition-all duration-300
+                         flex items-center justify-center shadow-lg hover:shadow-blue-400/30
+                         transform hover:-translate-y-1"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  fillRule="evenodd"
+                  d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              View Resume
+            </a>
+          </div>
         </div>
       </div>
 
