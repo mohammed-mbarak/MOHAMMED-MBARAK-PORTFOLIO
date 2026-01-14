@@ -42,7 +42,7 @@ const ProfessionalStatement = () => {
             <p className="text-lg text-gray-700 leading-relaxed">
               Certified in <span className="font-semibold text-cyan-600">Google Cybersecurity</span>, 
               <span className="font-semibold text-cyan-600"> Cyber Shujaa Security Analyst Certification</span>, and 
-              <span className="font-semibold text-cyan-600">Software Engineering</span>, I continuously upskill to stay 
+              <span className="font-semibold text-cyan-600"> Software Engineering</span>, I continuously upskill to stay 
               ahead of evolving technologies. From building secure web platforms to developing 
               <strong className="text-blue-600"> mobile-first applications</strong>, I deliver solutions that merge 
               <strong className="text-blue-600"> security, usability, and innovation.</strong>
